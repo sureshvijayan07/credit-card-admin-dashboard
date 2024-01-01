@@ -6,9 +6,7 @@ Step #1 -> Clone the Repository
 
 Step #2 -> Run the command -> npm install 
 
-Step #3 -> Open the terminal -> json-server --watch db.json 
-
-Step #4 -> Open the terminal -> ng serve
+Step #3 -> Open the terminal -> ng serve
 
 
 ## Development server
