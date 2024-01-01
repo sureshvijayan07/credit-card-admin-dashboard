@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'cc-admin-dashboard'`, () => {
+  it(`should have as title 'creditcardadmin'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('cc-admin-dashboard');
+    expect(app.title).toEqual('creditcardadmin');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('cc-admin-dashboard app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('creditcardadmin app is running!');
   });
 });

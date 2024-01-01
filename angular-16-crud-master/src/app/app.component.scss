@@ -1,0 +1,29 @@
+.header-spacer {
+    flex: 1 1 auto;
+}
+.header-toolbar {
+    background-color: #5F9EA0;
+    color:#fff;
+    .app-title {
+        padding-left:20px;
+    }
+}
+.content-container {
+    height:100%;
+    border:1px solid #ddd;
+    min-height: 100vh;
+}
+.sidebar {
+    background-color: #A3C1AD;
+    height:100%;
+    width:250px;
+}
+
+.mat-card {
+    margin:20px;
+}
+
+.logo-img {
+    margin: 0 15px 0 0;
+    width: 50px;
+}
